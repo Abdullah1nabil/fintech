@@ -1,0 +1,132 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  font-family: Gilroy;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+header {
+  padding-top: 20px;
+  width: 100%;
+  height: 10vh;
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+      font-size: 26px;
+      cursor: default;
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      font-weight: bold;
+      cursor: pointer;
+      text-transform: capitalize;
+    }
+    li {
+      padding-left: 20px;
+    }
+    li a {
+      text-decoration: none;
+    }
+  }
+}
+main {
+  height: 90vh;
+
+  img {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+  }
+  .overlay {
+    background-color: black;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+    position: absolute;
+    height: 90vh;
+  }
+  section {
+    position: relative;
+    padding-top: 36vh;
+
+    p {
+      font-size: 20px;
+      color: #707070;
+    }
+    h1 {
+      color: white;
+      font-weight: bolder;
+      font-size: 42px;
+      text-transform: capitalize;
+      padding-bottom: 40px;
+    }
+    input {
+      padding: 20px auto;
+      background-color: transparent;
+      color: white;
+      border: 1px solid white;
+      outline: 0px;
+      border-radius: 10px;
+      width: 200px;
+      height: 50px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  }
+}
+
+footer {
+  background-color: white;
+  height: 15vh;
+  width: 85%;
+  right: 0px;
+  bottom: 0px;
+  margin-top: -120px;
+  position: absolute;
+  border-top-left-radius: 20px;
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .cards {
+      display: flex;
+      padding-top: 30px;
+      padding-left: 30px;
+    }
+    h3 {
+      padding-bottom: 10px;
+      padding-left: 10px;
+    }
+    p {
+      padding-bottom: 10px;
+      padding-left: 10px;
+    }
+    img {
+      border-radius: 10px;
+      width: 80px;
+      height: 80px;
+    }
+  }
+}
